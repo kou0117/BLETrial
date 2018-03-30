@@ -1,0 +1,652 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		63428C60C764299C4B29BB0E /* Pods_zaitaku0_01.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E81A336A1AC7B036BEC211BD /* Pods_zaitaku0_01.framework */; };
+		DC9C7694204CF4D20038FD30 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC9C7693204CF4D20038FD30 /* AppDelegate.swift */; };
+		DC9C7696204CF4D20038FD30 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC9C7695204CF4D20038FD30 /* ViewController.swift */; };
+		DC9C7699204CF4D20038FD30 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC9C7697204CF4D20038FD30 /* Main.storyboard */; };
+		DC9C769B204CF4D20038FD30 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DC9C769A204CF4D20038FD30 /* Assets.xcassets */; };
+		DC9C769E204CF4D20038FD30 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC9C769C204CF4D20038FD30 /* LaunchScreen.storyboard */; };
+		DC9C76A9204CF4D20038FD30 /* BluetoothWithIosTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC9C76A8204CF4D20038FD30 /* BluetoothWithIosTests.swift */; };
+		DC9C76B4204CF4D20038FD30 /* BluetoothWithIosUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC9C76B3204CF4D20038FD30 /* BluetoothWithIosUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DC9C76A5204CF4D20038FD30 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DC9C7688204CF4D20038FD30 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DC9C768F204CF4D20038FD30;
+			remoteInfo = zaitaku0.01;
+		};
+		DC9C76B0204CF4D20038FD30 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DC9C7688204CF4D20038FD30 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DC9C768F204CF4D20038FD30;
+			remoteInfo = zaitaku0.01;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A35C8513CF6E312D60D4B687 /* Pods-zaitaku0.01.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-zaitaku0.01.release.xcconfig"; path = "Pods/Target Support Files/Pods-zaitaku0.01/Pods-zaitaku0.01.release.xcconfig"; sourceTree = "<group>"; };
+		DA9B3169575B90467337D7C6 /* Pods-zaitaku0.01.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-zaitaku0.01.debug.xcconfig"; path = "Pods/Target Support Files/Pods-zaitaku0.01/Pods-zaitaku0.01.debug.xcconfig"; sourceTree = "<group>"; };
+		DC9C7690204CF4D20038FD30 /* BluetoothWithIos.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BluetoothWithIos.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC9C7693204CF4D20038FD30 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DC9C7695204CF4D20038FD30 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DC9C7698204CF4D20038FD30 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DC9C769A204CF4D20038FD30 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DC9C769D204CF4D20038FD30 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DC9C769F204CF4D20038FD30 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DC9C76A4204CF4D20038FD30 /* BluetoothWithIosTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BluetoothWithIosTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC9C76A8204CF4D20038FD30 /* BluetoothWithIosTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BluetoothWithIosTests.swift; sourceTree = "<group>"; };
+		DC9C76AA204CF4D20038FD30 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DC9C76AF204CF4D20038FD30 /* BluetoothWithIosUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BluetoothWithIosUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC9C76B3204CF4D20038FD30 /* BluetoothWithIosUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BluetoothWithIosUITests.swift; sourceTree = "<group>"; };
+		DC9C76B5204CF4D20038FD30 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E81A336A1AC7B036BEC211BD /* Pods_zaitaku0_01.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_zaitaku0_01.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DC9C768D204CF4D20038FD30 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63428C60C764299C4B29BB0E /* Pods_zaitaku0_01.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC9C76A1204CF4D20038FD30 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC9C76AC204CF4D20038FD30 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1B04747ED6DE84FEF2D38D73 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DA9B3169575B90467337D7C6 /* Pods-zaitaku0.01.debug.xcconfig */,
+				A35C8513CF6E312D60D4B687 /* Pods-zaitaku0.01.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		49C372BE5F3785BE5A20B068 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E81A336A1AC7B036BEC211BD /* Pods_zaitaku0_01.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DC9C7687204CF4D20038FD30 = {
+			isa = PBXGroup;
+			children = (
+				DC9C7692204CF4D20038FD30 /* BluetoothWithIos */,
+				DC9C76A7204CF4D20038FD30 /* BluetoothWithIosTests */,
+				DC9C76B2204CF4D20038FD30 /* BluetoothWithIosUITests */,
+				DC9C7691204CF4D20038FD30 /* Products */,
+				1B04747ED6DE84FEF2D38D73 /* Pods */,
+				49C372BE5F3785BE5A20B068 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		DC9C7691204CF4D20038FD30 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DC9C7690204CF4D20038FD30 /* BluetoothWithIos.app */,
+				DC9C76A4204CF4D20038FD30 /* BluetoothWithIosTests.xctest */,
+				DC9C76AF204CF4D20038FD30 /* BluetoothWithIosUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DC9C7692204CF4D20038FD30 /* BluetoothWithIos */ = {
+			isa = PBXGroup;
+			children = (
+				DC9C7693204CF4D20038FD30 /* AppDelegate.swift */,
+				DC9C7695204CF4D20038FD30 /* ViewController.swift */,
+				DC9C7697204CF4D20038FD30 /* Main.storyboard */,
+				DC9C769A204CF4D20038FD30 /* Assets.xcassets */,
+				DC9C769C204CF4D20038FD30 /* LaunchScreen.storyboard */,
+				DC9C769F204CF4D20038FD30 /* Info.plist */,
+			);
+			path = BluetoothWithIos;
+			sourceTree = "<group>";
+		};
+		DC9C76A7204CF4D20038FD30 /* BluetoothWithIosTests */ = {
+			isa = PBXGroup;
+			children = (
+				DC9C76A8204CF4D20038FD30 /* BluetoothWithIosTests.swift */,
+				DC9C76AA204CF4D20038FD30 /* Info.plist */,
+			);
+			path = BluetoothWithIosTests;
+			sourceTree = "<group>";
+		};
+		DC9C76B2204CF4D20038FD30 /* BluetoothWithIosUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DC9C76B3204CF4D20038FD30 /* BluetoothWithIosUITests.swift */,
+				DC9C76B5204CF4D20038FD30 /* Info.plist */,
+			);
+			path = BluetoothWithIosUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DC9C768F204CF4D20038FD30 /* BluetoothWithIos */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DC9C76B8204CF4D20038FD30 /* Build configuration list for PBXNativeTarget "BluetoothWithIos" */;
+			buildPhases = (
+				12E4B7BD4D4C3B68F2E8471A /* [CP] Check Pods Manifest.lock */,
+				DC9C768C204CF4D20038FD30 /* Sources */,
+				DC9C768D204CF4D20038FD30 /* Frameworks */,
+				DC9C768E204CF4D20038FD30 /* Resources */,
+				2B879926DCBC2B9FC4160217 /* [CP] Embed Pods Frameworks */,
+				87CA597EAD16CD39A7CD038C /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BluetoothWithIos;
+			productName = zaitaku0.01;
+			productReference = DC9C7690204CF4D20038FD30 /* BluetoothWithIos.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DC9C76A3204CF4D20038FD30 /* BluetoothWithIosTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DC9C76BB204CF4D20038FD30 /* Build configuration list for PBXNativeTarget "BluetoothWithIosTests" */;
+			buildPhases = (
+				DC9C76A0204CF4D20038FD30 /* Sources */,
+				DC9C76A1204CF4D20038FD30 /* Frameworks */,
+				DC9C76A2204CF4D20038FD30 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DC9C76A6204CF4D20038FD30 /* PBXTargetDependency */,
+			);
+			name = BluetoothWithIosTests;
+			productName = zaitaku0.01Tests;
+			productReference = DC9C76A4204CF4D20038FD30 /* BluetoothWithIosTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DC9C76AE204CF4D20038FD30 /* BluetoothWithIosUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DC9C76BE204CF4D20038FD30 /* Build configuration list for PBXNativeTarget "BluetoothWithIosUITests" */;
+			buildPhases = (
+				DC9C76AB204CF4D20038FD30 /* Sources */,
+				DC9C76AC204CF4D20038FD30 /* Frameworks */,
+				DC9C76AD204CF4D20038FD30 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DC9C76B1204CF4D20038FD30 /* PBXTargetDependency */,
+			);
+			name = BluetoothWithIosUITests;
+			productName = zaitaku0.01UITests;
+			productReference = DC9C76AF204CF4D20038FD30 /* BluetoothWithIosUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DC9C7688204CF4D20038FD30 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = accenturePC;
+				TargetAttributes = {
+					DC9C768F204CF4D20038FD30 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					DC9C76A3204CF4D20038FD30 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = DC9C768F204CF4D20038FD30;
+					};
+					DC9C76AE204CF4D20038FD30 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = DC9C768F204CF4D20038FD30;
+					};
+				};
+			};
+			buildConfigurationList = DC9C768B204CF4D20038FD30 /* Build configuration list for PBXProject "BluetoothWithIos" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DC9C7687204CF4D20038FD30;
+			productRefGroup = DC9C7691204CF4D20038FD30 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DC9C768F204CF4D20038FD30 /* BluetoothWithIos */,
+				DC9C76A3204CF4D20038FD30 /* BluetoothWithIosTests */,
+				DC9C76AE204CF4D20038FD30 /* BluetoothWithIosUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DC9C768E204CF4D20038FD30 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC9C769E204CF4D20038FD30 /* LaunchScreen.storyboard in Resources */,
+				DC9C769B204CF4D20038FD30 /* Assets.xcassets in Resources */,
+				DC9C7699204CF4D20038FD30 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC9C76A2204CF4D20038FD30 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC9C76AD204CF4D20038FD30 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		12E4B7BD4D4C3B68F2E8471A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-zaitaku0.01-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2B879926DCBC2B9FC4160217 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-zaitaku0.01/Pods-zaitaku0.01-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Charts/Charts.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Charts.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-zaitaku0.01/Pods-zaitaku0.01-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		87CA597EAD16CD39A7CD038C /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-zaitaku0.01/Pods-zaitaku0.01-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DC9C768C204CF4D20038FD30 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC9C7696204CF4D20038FD30 /* ViewController.swift in Sources */,
+				DC9C7694204CF4D20038FD30 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC9C76A0204CF4D20038FD30 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC9C76A9204CF4D20038FD30 /* BluetoothWithIosTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC9C76AB204CF4D20038FD30 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC9C76B4204CF4D20038FD30 /* BluetoothWithIosUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DC9C76A6204CF4D20038FD30 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DC9C768F204CF4D20038FD30 /* BluetoothWithIos */;
+			targetProxy = DC9C76A5204CF4D20038FD30 /* PBXContainerItemProxy */;
+		};
+		DC9C76B1204CF4D20038FD30 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DC9C768F204CF4D20038FD30 /* BluetoothWithIos */;
+			targetProxy = DC9C76B0204CF4D20038FD30 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DC9C7697204CF4D20038FD30 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DC9C7698204CF4D20038FD30 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DC9C769C204CF4D20038FD30 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DC9C769D204CF4D20038FD30 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DC9C76B6204CF4D20038FD30 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OBJC_BRIDGING_HEADER = "";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
+			};
+			name = Debug;
+		};
+		DC9C76B7204CF4D20038FD30 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OBJC_BRIDGING_HEADER = "";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DC9C76B9204CF4D20038FD30 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DA9B3169575B90467337D7C6 /* Pods-zaitaku0.01.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 32QA8Z3B32;
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = "$(SRCROOT)/BluetoothWithIos/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = kotaro.harada.BluetoothWithIos;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DC9C76BA204CF4D20038FD30 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A35C8513CF6E312D60D4B687 /* Pods-zaitaku0.01.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 32QA8Z3B32;
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = "$(SRCROOT)/BluetoothWithIos/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = kotaro.harada.BluetoothWithIos;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		DC9C76BC204CF4D20038FD30 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 32QA8Z3B32;
+				INFOPLIST_FILE = zaitaku0.01Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "kotaro.harada.zaitaku0-01Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BluetoothWithIos.app/BluetoothWithIos";
+			};
+			name = Debug;
+		};
+		DC9C76BD204CF4D20038FD30 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 32QA8Z3B32;
+				INFOPLIST_FILE = zaitaku0.01Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "kotaro.harada.zaitaku0-01Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BluetoothWithIos.app/BluetoothWithIos";
+			};
+			name = Release;
+		};
+		DC9C76BF204CF4D20038FD30 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 32QA8Z3B32;
+				INFOPLIST_FILE = zaitaku0.01UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "kotaro.harada.zaitaku0-01UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = zaitaku0.01;
+			};
+			name = Debug;
+		};
+		DC9C76C0204CF4D20038FD30 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 32QA8Z3B32;
+				INFOPLIST_FILE = zaitaku0.01UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "kotaro.harada.zaitaku0-01UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = zaitaku0.01;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DC9C768B204CF4D20038FD30 /* Build configuration list for PBXProject "BluetoothWithIos" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC9C76B6204CF4D20038FD30 /* Debug */,
+				DC9C76B7204CF4D20038FD30 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DC9C76B8204CF4D20038FD30 /* Build configuration list for PBXNativeTarget "BluetoothWithIos" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC9C76B9204CF4D20038FD30 /* Debug */,
+				DC9C76BA204CF4D20038FD30 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DC9C76BB204CF4D20038FD30 /* Build configuration list for PBXNativeTarget "BluetoothWithIosTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC9C76BC204CF4D20038FD30 /* Debug */,
+				DC9C76BD204CF4D20038FD30 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DC9C76BE204CF4D20038FD30 /* Build configuration list for PBXNativeTarget "BluetoothWithIosUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC9C76BF204CF4D20038FD30 /* Debug */,
+				DC9C76C0204CF4D20038FD30 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DC9C7688204CF4D20038FD30 /* Project object */;
+}
